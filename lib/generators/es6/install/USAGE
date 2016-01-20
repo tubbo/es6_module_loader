@@ -1,0 +1,8 @@
+Description:
+    Install the ES6 module loader
+
+Example:
+    rails generate install Thing
+
+    This will create:
+        what/will/it/create
