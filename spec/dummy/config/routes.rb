@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :comments
-  root to: 'comments#index'
+
+  mount Es6ModuleLoader::Engine => "/es6_module_loader"
 end
